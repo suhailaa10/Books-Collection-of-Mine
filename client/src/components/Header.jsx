@@ -16,10 +16,7 @@ function Header() {
         <NavLink className="menu" to="/about">About</NavLink>
        
         </nav>
-        <nav className="s-nav">
-       <NavLink className="menu text-warning" to="#">SignUp</NavLink>
-        <NavLink className="menu text-warning" to="#">LogIn</NavLink>
-      </nav>
+       
     </header>
   );
 }
